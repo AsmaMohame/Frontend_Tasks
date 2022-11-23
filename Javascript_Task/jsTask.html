@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="jsTask.css">
+    <title>Products</title>
+</head>
+
+<body class="w-100 min-vh-100 bg-light">
+
+
+
+    <div class="cont w-100 d-flex justify-content-between">
+        <div class="form-control ms-5 rounded position-relative overflow-hidden">
+            <input class=" search w-100 ps-3 border-0 text-start mt-0 fs-6 fw-bold" type="text"
+                placeholder="search for Product">
+            <i class="fa-solid fa-magnifying-glass position-absolute"></i>
+        </div>
+
+        <div class="dropDownCon position-relative me-5">
+            <div class="dropDown w-100 d-flex justify-content-between rounded me-5">
+                <p>Fillter by </p>
+                <button class="border-0 bg-transparent "><i class="fa-sharp fa-solid fa-caret-down"></i></button>
+            </div>
+            <div class="drop showDropDown  position-absolute w-100 rounded bg-light">
+                <p class="category">All</p>
+                <p class="category">smartphones</p>
+                <p class="category">laptops</p>
+                <p class="category">fragrances</p>
+                <p class="category">skincare</p>
+                <p class="category">groceries</p>
+                <p class="category">home-decoration</p>
+            </div>
+        </div>
+    </div>
+    <div class="Products">
+    </div>
+
+    <div class="ProductDetails show position-fixed top-0 start-0 bg-light w-100 h-100">
+    </div>
+
+</body>
+<script src="jsTask.js"></script>
+
+</html>
