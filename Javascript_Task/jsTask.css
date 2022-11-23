@@ -3,12 +3,9 @@
     padding: 0px;
     box-sizing:border-box;
 }
-
-
 .cont{
     padding: 30px;
 }
-
 .cont:nth-child(1) { 
     box-shadow: 0px 0px 5px rgb(0, 0, 0 , 0.3);
 }
